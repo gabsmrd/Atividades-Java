@@ -6,7 +6,7 @@ public class Atividade01 {
         int idade;
         float altura;
         String cargo;
-        int periodoEstudo;
+        String periodoEstudo;
 
         System.out.print("Digite seu nome completo: ");
         Scanner inicioNome = new Scanner(System.in);
@@ -18,19 +18,19 @@ public class Atividade01 {
 
         System.out.print("Digite sua altura: ");
         Scanner inicioAltura = new Scanner(System.in);
-        altura = inicioIdade.nextFloat();
+        altura = inicioAltura.nextFloat();
 
         System.out.print("Digite seu cargo na empresa : ");
         Scanner inicioCargo = new Scanner(System.in);
-        cargo = inicioNome.nextLine();
+        cargo = inicioCargo.nextLine();
 
         System.out.print("Digite o periodo que está : ");
         Scanner inicioPeriodo = new Scanner(System.in);
-        periodoEstudo = inicioPeriodo.nextInt();
+        periodoEstudo = inicioPeriodo.nextLine();
 
 
-        System.out.println("Nome do estudante " + nomeCompleto +"\n"+ "Idade do estudante" + idade + "Altura do estudante" + altura +
-                "Cargo dentro da empresa"+ cargo + "Periodo de estudo" + periodoEstudo);
+        System.out.println("Nome do estudante: " + nomeCompleto +"\n"+ "Idade do estudante: " + idade +"\n"+ "Altura do estudante: " + altura +"\n"+
+                "Cargo dentro da empresa: "+ cargo +"\n"+ "Periodo de estudo: " + periodoEstudo+"\n");
 
 
     }
