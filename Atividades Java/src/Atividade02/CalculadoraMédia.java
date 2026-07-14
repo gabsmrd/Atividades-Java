@@ -1,6 +1,7 @@
+package Atividade02;
 import java.util.Scanner;
 
-public class Atividade03 {
+public class CalculadoraMédia {
 
     public static void main(String[] args) {
 

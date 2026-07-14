@@ -1,6 +1,7 @@
+package Atividade02;
 import java.util.Scanner;
 
-public class Atividade04 {
+public class DetetiveNumeros {
 
     public static void main(String[] args) {
 

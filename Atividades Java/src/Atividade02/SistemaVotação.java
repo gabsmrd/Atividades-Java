@@ -1,6 +1,7 @@
+package Atividade02;
 import java.util.Scanner;
 
-public class Ativida02 {
+public class SistemaVotação {
 
     public static void main(String[] args) {
 

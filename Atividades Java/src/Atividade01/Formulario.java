@@ -1,6 +1,7 @@
+package Atividade01;
 import java.util.Scanner;
 
-public class Atividade01 {
+public class Formulario {
     public static void main(String[] args){
         String nomeCompleto;
         int idade;
