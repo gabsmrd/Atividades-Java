@@ -1,6 +1,6 @@
 package Atividade05;
 
-public class  FiltroNotas {
+class  FiltroNotas {
     public static void main(String[] args) {
         
     }

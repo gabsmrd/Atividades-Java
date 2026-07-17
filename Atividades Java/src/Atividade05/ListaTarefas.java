@@ -6,22 +6,22 @@ import java.util.Scanner;
 public class ListaTarefas {
     public static void main(String[] args) {
         Scanner entradaTarefas = new Scanner(System.in);
-        String tarefa = "";
+        ArrayList<String> tarefas = new ArrayList<>();
 
-        while (!tarefa.equalsIgnoreCase("fim")) {
+        while (true) {
+            System.out.print("Digite uma tarefa: ");
+            tarefas.add(entradaTarefas.nextLine());
 
-            System.out.print("Digite uma tarefa (ou 'fim' para encerrar): ");
-            tarefa = entradaTarefas.nextLine();
+            System.out.println("Deseja continuar? ");
+            String opcao = entradaTarefas.nextLine();
 
-            if (!tarefa.equalsIgnoreCase("fim")) {
-
+            if (opcao.equals("Fim")) {
+                break;
             }
-        }
-
-        System.out.println("Total de tarefas registadas: " + ());
-
-        for (int i = 0; i < (); i++) {
-            System.out.println((i + 1) + ". " + (i));
+            System.out.println("Total de tarefas registrafas: " + tarefas.size());
+            for (int i = 0; i < tarefas.size(); i++) {
+                System.out.println((i + 1 ) + tarefas.get(i) + ". ");
+            }
         }
     }
 }

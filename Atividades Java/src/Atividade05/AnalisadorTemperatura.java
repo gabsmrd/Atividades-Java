@@ -13,7 +13,7 @@ public class AnalisadorTemperatura {
         }
         System.out.print("Temperaturas: [" );
 
-        for(int inicio2 = 0; inicio2 < temperaturas.length; inicio2++){
+        fgior(int inicio2 = 0; inicio2 < temperaturas.length; inicio2++){
             System.out.print(temperaturas[inicio2]);
             if(inicio2 < temperaturas.length -1){
                 System.out.print(", ");
