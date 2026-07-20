@@ -1,8 +1,8 @@
-package Aulas;
+package Aulas.Encapsulamento;
 
 public class SetimaAula {
-    int idade;
+    /*int idade;
     public String nome;
     private double altura;
-    protected String CPF;
+    protected String CPF;*/
 }
