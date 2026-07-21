@@ -5,11 +5,16 @@ public class ContaBancaria {
     private String titular;
     private int numeroDaConta;
     private double saldo;
+    private static int contador = 1;
 
-    //Construtor dessa classe
-    public ContaBancaria(String titular,int numeroDaConta){
+    private void metodoDeIncremento(){
+        contador++;
+    }
+
+    //metodo Construtor dessa classe
+    public ContaBancaria(String titular){
         this.titular = titular;
-        this.numeroDaConta = numeroDaConta;
+        this.numeroDaConta = contador; contador++;
         this.saldo = 0.0;
     }
 
@@ -19,9 +24,7 @@ public class ContaBancaria {
     }
 
     // é um metodo para modificar o valor dentro da instância da classe (no objeto)
-    public void setTitular(String titular) {
-        this.titular = titular;
-    }
+
 
     // um metodo criado para modificar o valor do saldo de um objeto
     public void deposistar(double valor){
