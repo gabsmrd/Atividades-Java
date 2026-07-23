@@ -1,6 +1,5 @@
 package Aulas.Encapsulamento.Banco.Principal;
 import Aulas.Encapsulamento.Banco.Modelo.ContaBancaria;
-
 /**
  * ATIVIDADE
  *
@@ -9,11 +8,14 @@ import Aulas.Encapsulamento.Banco.Modelo.ContaBancaria;
  * 3. Toda vez que uma instância dessa classe for criada, ou seja, quando criar um objeto com o new, o número de conta deve ser diferente da instância anterior.
  *    OBS: essa lógica deve ser inserida na classe de ContaBancaria
  */
+
 public class Main {
     public static void main(String[] args) {
-        ContaBancaria pessoa1 = new ContaBancaria("Gabi");
-        System.out.println(pessoa1);
 
-        pessoa1.deposistar(100);
+        ContaBancaria pessoa1 = new ContaBancaria("Gabi");
+
+        pessoa1.depositar(100);git
+
+        System.out.println(pessoa1);
     }
 }
