@@ -1,9 +1,9 @@
 package Aulas.Heranca.Locamocao;
 
 public class Veiculo {
-    String marca;
-    String placa;
-    int anoFabricacao;
+    private String marca;
+    private String placa;
+    private int anoFabricacao;
     String nomeVeiculo;
 
     public void ligar(){
